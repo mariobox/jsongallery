@@ -11,7 +11,7 @@ $(document).ready(function() {
       
       $('#photos').html(photoHTML);
     }
-    $.getJSON(mscphotos.json, displayPhotos);
+    $.getJSON("mscphotos.json", displayPhotos);
     
     
 
