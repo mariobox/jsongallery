@@ -3,17 +3,23 @@
 <head>
   <meta charset="utf-8">
   <title>AJAX Image Gallery</title>
-  <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='skeleton.css'>
   <link rel='stylesheet' href='custom.css'>
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="img.js"></script>
 </head>
 <body>
+<div class="container">    
+    <div class="row">
+      <div class="twelve columns">
   <h1>JSON Image Gallery</h1>
-  <p>Image gallery built using the $.getJSON() jQuery AJAX helper method. Image url's and descriptions are pulled from a json file by a JavaScript program and placed on this page, where pictures and descriptions are styled by a custom css style sheet.</p>
-<p>The figcaption styling is still rusty (doesn't render equally on different screen resolutions), but other than that the program does the trick.</p>
+  <p>Image gallery built using the $.getJSON() jQuery AJAX helper method. Image url's and descriptions are pulled from a JSON file by a JavaScript program and placed on this page, where pictures and descriptions are styled by a custom css style sheet.</p>
+
 <p>You can check out the <a href="">source files</a> on Github.</p>
 
   <div id="photos"></div>
+</div>
+</div>
+</div>
 </body>
 </html>
