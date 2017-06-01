@@ -6,7 +6,7 @@ $(document).ready(function() {
     function displayPhotos(data) {
       var photoHTML = "";
       $.each(data.items,function(i,photo) {
-        photoHTML += '<p><img src="' + photo.url + '"></p><br />' + '<span>' + photo.description + '</span>';
+        photoHTML += '<div class="picbox"><figure><img src="' + photo.url + '" class="frame"><figcaption>' + photo.description + '</figcaption></figure></div>';
       }); // end each
       
       $('#photos').html(photoHTML);
@@ -19,3 +19,5 @@ $(document).ready(function() {
   
 
 }); // end ready
+
+
