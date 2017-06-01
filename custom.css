@@ -34,11 +34,11 @@ figcaption {
   background: rgba(19,43,102, .50);
   bottom: 0;
   position: absolute;
-  width:100%;
-  margin-bottom: 12px;
+  width:97%;
+  margin-bottom: 10px;
   margin-left: 5px;
   padding: 0.6em;
-  box-sizing: border-box;
+  box-sizing: content-box;
   
 }
 
