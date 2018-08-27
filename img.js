@@ -3,7 +3,7 @@ $(document).ready(function() {
     function displayPhotos(data) {
       var photoHTML = "";
       $.each(data,function(i,photo) {
-        photoHTML += '<div class="picbox"><figure><img src="' + photo.url + '" class="frame"><figcaption>' + photo.description + '</figcaption></figure></div>';
+          photoHTML += '<div class="picbox"><figure><img src="' + photo.url + '" class="frame" onclick="document.location=this.src"><figcaption>' + photo.description + '</figcaption></figure></div>';
           
       }); // end each
       
